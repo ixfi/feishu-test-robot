@@ -73,14 +73,14 @@ java -jar target/langchain4j.jar
 ---
 
 ## ❓ 常见问题（FAQ）
-Q1：机器人无响应？
+- 1：机器人无响应？
 检查 Spring Boot 服务是否正常启动，端口 8080 是否被占用
 检查 ngrok 穿透是否正常，公网地址是否已更新到飞书后台
 检查飞书应用是否已发布，机器人是否开启可用范围
-Q2：飞书返回 400 Bad Request？
+- 2：飞书返回 400 Bad Request？
 检查 AppID/AppSecret 是否正确，重置密钥后需重新配置
 检查 Verification Token 是否与飞书后台一致
 检查请求地址是否以 /webhook 结尾，格式为 https://xxx.ngrok-free.dev/webhook
-Q3：Java 版本不兼容报错？
+- 3：Java 版本不兼容报错？
 确保使用 JDK17 运行，推荐使用 IDEA 自带的 JetBrains Runtime
 脚本中指定 JAVA17 路径为 你的IDEA安装目录/jbr/bin/java.exe
