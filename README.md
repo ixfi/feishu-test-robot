@@ -84,4 +84,3 @@ Q2：飞书返回 400 Bad Request？
 Q3：Java 版本不兼容报错？
 确保使用 JDK17 运行，推荐使用 IDEA 自带的 JetBrains Runtime
 脚本中指定 JAVA17 路径为 你的IDEA安装目录/jbr/bin/java.exe
-```bash
