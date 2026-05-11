@@ -1,23 +1,43 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+# Spring Boot
+*.log
+*.jar
+*.war
+application-dev.yml
+application-prod.yml
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Ngrok
+ngrok.exe
+ngrok.log
+ngrok_tmp.json
+
+# 脚本
+启动服务.bat
+开机自启.vbs
+get_ngrok.cmd
+
+# 系统文件
+.DS_Store

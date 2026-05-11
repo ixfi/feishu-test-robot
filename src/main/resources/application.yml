@@ -1,0 +1,19 @@
+# 飞书机器人配置
+feishu:
+  app-id: cli_你的飞书应用ID
+  app-secret: 你的飞书应用密钥
+  verification-token: 你的飞书事件校验Token
+
+# AI模型配置（OpenAI兼容API，支持Ollama）
+langchain4j:
+  open-ai:
+    chat:
+      base-url: http://localhost:11434/v1
+      api-key: not-used
+      model-name: qwen:7b
+      temperature: 0.7
+      max-tokens: 2000
+      timeout: PT60S
+      max-retries: 3
+
+
